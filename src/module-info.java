@@ -5,5 +5,5 @@
  * @author dell
  *
  */
-module LineCompProblem {
+module LineCompaarisonComputation {
 }
