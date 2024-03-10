@@ -31,14 +31,21 @@ public class LineCompProblem {
 
 	{
 		if(this.lineCalculate() == linecompproblem2.lineCalculate()) {
+			
+			
 		
 			System.out.println("Both Line are Same");
 		}
-		
+        else if(this.lineCalculate() > linecompproblem2.lineCalculate()) {
+			
+			System.out.println("Line 1 is Greter than Line 2");
+		}
 		else {
 			
-			System.out.println("Line are Not Same");
+			System.out.println("Line 2 is Greter then Line 1");
 		}	
+		
+		
 	}
 	
 	public static void main(String[] args) {
